@@ -34,11 +34,21 @@ def monopoly_with_third_tier
   monopoly_with_third_tier = {
     :railroads => {
       :rent_in_dollars => {
+<<<<<<< HEAD
         :one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owned => 200
       },
       :names => {:pennsylvania_railroad => {}, :shortline_railroad => {}, :reading_railroad => {}, :b_and_o_railroad => {}}
     }
   }
+=======
+        :one_piece_owned => 1, :two_pieces_owned => 2, :three_pieces_owned => 3, :four_pieces_owned => 4
+      },
+      :names => {}
+    }
+  }
+  
+  # monopoly_with_third_tier[:railroads].has_key?(:name)
+>>>>>>> d13f755bb2186b07156c90d34e81c6c7a268ac8f
 end
 
 def monopoly_with_fourth_tier
